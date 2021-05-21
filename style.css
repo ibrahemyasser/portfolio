@@ -453,11 +453,14 @@ i.fa.fa-whatsapp{
 .social-icons a:active{
     color: var(--main-color);
 }
+.social-icons a:link{
+    color: var(--main-color);
+}
 .social-icons a:visited{
     color: var(--main-color);
 }
 .social-icons a:hover{
-    color: var(--main-color);
+    color: var(--transparent-color);
 }
 .social-icons{
     background-color:rgba(255, 0, 0, 0);
@@ -466,16 +469,22 @@ i.fa.fa-whatsapp{
     .tex{
         font-size: 18px;
         width: 100%;
-        height: auto;
         margin-left: -50px;
         text-align: left;
-      
+        height: 300px;
+    }
+    .ola{
+        height: 200px;
+    }
+    .about{
+        margin-bottom: 25px;
     }
     .content p, .test {
         font-size: 18px;
         width: 150%;
         text-align: left;
         margin-left: -100px;
+
     }
     .exp::after {
         content: "";
@@ -486,11 +495,15 @@ i.fa.fa-whatsapp{
         width: 210px;
         left:30%;
     }
+    .ex{
+        top: 1300px;
+    }
     .exp{
         padding: 20px;
         margin-left: 62px;
         font-size: 32px;
         text-align: center;
+        top:1800px
     }
     .imgs{
         margin-left: -45px;
@@ -503,7 +516,7 @@ i.fa.fa-whatsapp{
         position: absolute;
         width: 80%;
         text-align: left;
-        top: 2050px;
+        top: 2250px;
         color: white;
         font-weight: normal;
         margin: auto;
@@ -530,7 +543,7 @@ i.fa.fa-whatsapp{
     }
     
     .footer {
-        top: 2700px;
+        top: 2920px;
         width: 110%;
     }
     .co{
